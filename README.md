@@ -4,17 +4,15 @@ Whmcs Whois sistemine alternatif olarak geliştirilmiş whois sonuçları sayfas
 <h2>Kurulum</h2>
 
 <li>.htaccess dosyanız varsa aşağıdaki ifadeleri en alt kısımda bir yere kopyalayın.<br />
-
-<i>RewriteRule ^whois$			whois2.php [QSA]<br />
-RewriteRule ^whois/(.*)$	whois2.php?domain=$1 [QSA]</i>
+<small>RewriteRule ^whois$			whois2.php [QSA]<br />
+RewriteRule ^whois/(.*)$	whois2.php?domain=$1 [QSA]</small>
 </li>
 <li>.htaccess Dosyanız yoksa aşağıdaki gibi bir dosya oluşturabilirsiniz.<br />
-
-<i>Options -Indexes<br />
+<small>Options -Indexes<br />
 RewriteEngine On<br />
 RewriteBase /<br />
 RewriteRule ^whois$			whois2.php [QSA]<br />
-RewriteRule ^whois/(.*)$	whois2.php?domain=$1 [QSA]</i>
+RewriteRule ^whois/(.*)$	whois2.php?domain=$1 [QSA]</small>
 </li>
 
 <li>templates/default/whois2.tpl dosyasını kullandığınız tema dizinine atın.</li>
