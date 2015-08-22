@@ -1,0 +1,8 @@
+Options -Indexes
+
+RewriteEngine On
+
+RewriteBase /
+
+RewriteRule ^whois$			whois2.php [QSA]
+RewriteRule ^whois/(.*)$	whois2.php?domain=$1 [QSA]
