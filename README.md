@@ -1,5 +1,5 @@
 # WHMCS-Whois
-Whmcs Whois sistemine alternatif olarak geliştirilmiş whois sonuçları sayfası.
+Whmcs Whois sistemine alternatif olarak geliştirilmiş whois sonuçları sayfası. Bu sctipt ile daha detaylı Whois sonuçları listeleyebilirsiniz. Ayrıca Nic.tr whois sonuçlarını daha belirgin ve Türkçe karakterleri bozuk olmadan gösterebilirsiniz.
 
 <h2>Kurulum</h2>
 
