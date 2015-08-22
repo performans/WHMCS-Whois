@@ -10,3 +10,4 @@ RewriteRule ^whois/(.*)$	whois2.php?domain=$1 [QSA]
 </li>
 <li>templates/default/whois2.tpl dosyasını kullandığınız tema dizinine atın.</li>
 <li>PHP yapılandırmanızda allow_url_fopen = On ve fsockopen fonksiyonunun kullanılabilir olduğunda emin olun.</li>
+<li>Örnek Kullanım : https://www.performans.net/whois/performanshosting.com.tr şeklindedir.</li>
