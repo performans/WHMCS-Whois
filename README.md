@@ -3,11 +3,16 @@ Whmcs Whois sistemine alternatif olarak geliştirilmiş whois sonuçları sayfas
 
 <h2>Kurulum</h2>
 
-<li>.htaccess dosyanız varsa aşağıdaki ifadeleri en alt kısımda bir yere kopyalayın.<br />
+<li>.htaccess dosyanız varsa aşağıdaki ifadeleri en alt kısımda bir yere kopyalayın.
+
+
 <small>RewriteRule ^whois$			whois2.php [QSA]<br />
 RewriteRule ^whois/(.*)$	whois2.php?domain=$1 [QSA]</small>
 </li>
-<li>.htaccess Dosyanız yoksa aşağıdaki gibi bir dosya oluşturabilirsiniz.<br />
+
+<li>.htaccess Dosyanız yoksa aşağıdaki gibi bir dosya oluşturabilirsiniz.
+
+
 <small>Options -Indexes<br />
 RewriteEngine On<br />
 RewriteBase /<br />
