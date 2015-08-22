@@ -1,8 +1,6 @@
 <?php
     
-    /**
-        Performans.net Whois Sonuclari Sayfasi 
-    **/
+/* Performans.net Whois Sonuclari Sayfasi */
     
 header('Content-Type: text/html; charset=utf-8');
 define("CLIENTAREA", false);
@@ -81,11 +79,7 @@ $ifadeler = array(
   'Name Server 2' => 'İsim Sunucusu 2'
 );
 
-   /**
-        
-    Guncel ve tam whois sunucularini gormek icin bu siteyi ziyaret edebilirsiniz: http://www.whois365.com/en/listtld/
-    
-    **/
+   /* Guncel ve tam whois sunucularini gormek icin bu siteyi ziyaret edebilirsiniz: http://www.whois365.com/en/listtld/ */
 $whoissunuculari = array(
 	"ac" => "whois.nic.ac", // Ascension Island
 	// ad - Andorra - no whois server assigned
