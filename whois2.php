@@ -17,6 +17,8 @@ require("init.php");
 
 $ca = new WHMCS_ClientArea();
 $ca->setPageTitle("Whois Sorgusu"); 
+$ca->addToBreadCrumb('index.php', 'Ana Sayfa');
+$ca->addToBreadCrumb('whois', 'Whois Sorgusu');
 $ca->initPage();
 
 $domain = $_GET['domain'];
