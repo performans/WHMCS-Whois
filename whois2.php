@@ -16,7 +16,7 @@ if (isset($_POST[domain]) and strlen($_POST[domain]) > 0) {
 require("init.php");
 
 $ca = new WHMCS_ClientArea();
-$ca->setPageTitle("DNS Kotrolu"); 
+$ca->setPageTitle("Whois Sorgusu"); 
 $ca->initPage();
 
 $domain = $_GET['domain'];
